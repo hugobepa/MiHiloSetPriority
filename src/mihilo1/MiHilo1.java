@@ -18,8 +18,9 @@ public class MiHilo1 extends Thread{
            /*currentThread(): metodo estatico que mantiene referencia
              al hilo propio
            */
+           int z=i+1;
            System.out.println("Comenzado: "+Thread.currentThread().getName()+","
-                   + "i="+1); 
+                   + "i="+z); 
        }   
        System.out.println("Termina thread " + getName()); 
    }
